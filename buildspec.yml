@@ -30,9 +30,9 @@ phases:
 artifacts:
   files:
      #- package.json
-     - static/**/*     
+     - '**/*'    
   discard-paths: no
-  #base-directory: static
+  base-directory: dist
 #cache:
   #paths:
     # - paths
