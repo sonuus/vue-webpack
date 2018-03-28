@@ -21,7 +21,7 @@ phases:
     commands:
       - npm run build
       - ls -al
-      - cd static
+      - cd dist
       - ls -al
   #post_build:
     #commands:
