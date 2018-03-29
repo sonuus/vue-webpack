@@ -33,6 +33,6 @@ artifacts:
      - '**/*'    
   discard-paths: no
   base-directory: dist
-#cache:
-  #paths:
-    # - paths
+cache:
+  paths:
+      - 'node_modules/**/*'
